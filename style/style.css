@@ -15,7 +15,7 @@ p,li,h1,h2,h3,h4,h5,span,strong{
 
 div.container{
     margin: 0 auto;
-    max-width:93rem;
+    max-width:86.2rem;
 }
 
 header{
@@ -33,7 +33,6 @@ header section.navbar{
 
 header section.navbar img{
     height: 2rem;
-    padding-left: 7rem;
 }
 
 header section.navbar ul{
@@ -84,7 +83,7 @@ div.innerProductFlex p{
 
 article.product > span.heart1{
     position:absolute;
-    left: 27.5rem;
+    left: 24.9rem;
     top: 1rem;
     background-color: white;
     color: black;
@@ -93,7 +92,7 @@ article.product > span.heart1{
 
 article.product > span.heart2{
     position:absolute;
-    left: 58.5rem;
+    left: 53.6rem;
     top: 1rem;
     background-color: white;
     color: black;
@@ -102,15 +101,14 @@ article.product > span.heart2{
 
 article.product > span.heart3{
     position:absolute;
-    left: 89.5rem;
+    left: 82.4rem;
     top: 1rem;
     background-color: white;
     color: black;
     padding: 0.8rem 1rem;
 }
 
-.gray{
-    color: gray;
+.smaller{
     font-size: smaller;
 }
 
@@ -128,7 +126,7 @@ article.product > span.heart3{
 
 article.product > span.discount1{
     position:absolute;
-    left: 0.9rem;
+    left: 0.8rem;
     bottom: 6rem;
     background-color: red;
     font-size: 1,5rem;
@@ -138,7 +136,7 @@ article.product > span.discount1{
 
 article.product > span.discount2{
     position:absolute;
-    left: 31.8rem;
+    left: 29.6rem;
     bottom: 6rem;
     background-color: red;
     font-size: 1,5rem;
@@ -148,7 +146,7 @@ article.product > span.discount2{
 
 article.product > span.discount3{
     position:absolute;
-    left: 62.9rem;
+    left: 58.3rem;
     bottom: 6rem;
     background-color: red;
     font-size: 1,5rem;
@@ -158,7 +156,7 @@ article.product > span.discount3{
 
 article.product > span.sos1{
     position:absolute;
-    left: 4.1rem;
+    left: 4rem;
     bottom: 6rem;
     background-color: green;
     font-size: 1,5rem;
@@ -169,7 +167,7 @@ article.product > span.sos1{
 
 article.product > span.sos2{
     position:absolute;
-    left: 62.8rem;
+    left: 58.3rem;
     bottom: 6rem;
     background-color: green;
     font-size: 1,5rem;
@@ -183,7 +181,7 @@ article.product > span.sos2{
 footer{
     background-color: #1A1A1A;
     color: white;
-    padding: 0 9.5rem 0 10rem;
+    padding: 0 13.7rem 0 14rem;
 }
 
 footer section.foot{
