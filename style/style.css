@@ -92,7 +92,7 @@ article.product > span.heart1{
 
 article.product > span.heart2{
     position:absolute;
-    left: 53.6rem;
+    left: 53.7rem;
     top: 1rem;
     background-color: white;
     color: black;
@@ -176,6 +176,57 @@ article.product > span.sos2{
     font-weight: 600;
 }
 
+.img1b{
+    display: none;
+    position: absolute;
+    width: 27rem;
+    height: 38.9rem;
+    left: 0.9rem;
+    bottom: 4rem;
+}
+
+article.prod1:hover img{
+    display: block;
+}
+
+.img2b{
+    display: none;
+    position: absolute;
+    width: 27.2rem;
+    height: 39rem;
+    left: 29.5rem;
+    bottom: 4rem;
+}
+
+article.prod2:hover img{
+    display: block;
+}
+
+.img3b{
+    display: none;
+    position: absolute;
+    width: 27.2rem;
+    height: 39rem;
+    left: 58rem;
+    bottom: 4rem;
+}
+
+article.prod3:hover img{
+    display: block;
+}
+
+
+article.prod4:hover img{
+    display: block;
+}
+
+article.prod5:hover img{
+    display: block;
+}
+
+article.prod6:hover img{
+    display: block;
+}
 
 
 footer{
