@@ -8,9 +8,14 @@ main{
     padding: 2rem;;
 }
 
+p,li,h1,h2,h3,h4,h5{
+    
+    font-family: sans-serif;
+}
+
 div.container{
     margin: 0 auto;
-    max-width:97.5rem;
+    max-width:93rem;
 }
 
 header{
@@ -63,6 +68,30 @@ footer{
     color: white;
 }
 
-footer foot{
-    
+footer section.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div.footer1{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div.footer1{
+    padding: 2rem
+}
+
+footer div.footer1 h3,h4{
+    padding-bottom: 1rem;
+}
+
+footer div.internalFooter1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer div.internalFooter1 p{
+    padding-right: 0.5rem;
 }
