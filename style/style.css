@@ -8,7 +8,7 @@ main{
     padding: 2rem;;
 }
 
-p,li,h1,h2,h3,h4,h5,span{
+p,li,h1,h2,h3,h4,h5,span,strong{
     
     font-family: sans-serif;
 }
@@ -109,7 +109,22 @@ article.product > span.heart3{
     padding: 0.8rem 1rem;
 }
 
+.gray{
+    color: gray;
+    font-size: smaller;
+}
 
+.bigger{
+    font-size: larger;
+}
+
+.red{
+    color: red;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
 
 article.product > span.discount1{
     position:absolute;
