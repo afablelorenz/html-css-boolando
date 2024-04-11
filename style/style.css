@@ -8,7 +8,7 @@ main{
     padding: 2rem;;
 }
 
-p,li,h1,h2,h3,h4,h5{
+p,li,h1,h2,h3,h4,h5,span{
     
     font-family: sans-serif;
 }
@@ -46,11 +46,15 @@ header section.navbar li{
     padding: 0.5rem;
 }
 
+
+
+
 section.productParent{
     display: flex;
     justify-content: space-around;
     margin-bottom: 2rem;
     margin-top: 1.5rem;
+    position: relative;
 }
 
 section.productParent > article{
@@ -63,14 +67,113 @@ article.product > img{
     padding: 0.3rem;
 }
 
+div.productFlex{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.3rem;
+}
+
+div.innerProductFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+div.innerProductFlex p{
+    padding-right: 0.3rem;
+}
+
+article.product > span.heart1{
+    position:absolute;
+    left: 27.5rem;
+    top: 1rem;
+    background-color: white;
+    color: black;
+    padding: 0.8rem 1rem;
+}
+
+article.product > span.heart2{
+    position:absolute;
+    left: 58.5rem;
+    top: 1rem;
+    background-color: white;
+    color: black;
+    padding: 0.8rem 1rem;
+}
+
+article.product > span.heart3{
+    position:absolute;
+    left: 89.5rem;
+    top: 1rem;
+    background-color: white;
+    color: black;
+    padding: 0.8rem 1rem;
+}
+
+
+
+article.product > span.discount1{
+    position:absolute;
+    left: 0.9rem;
+    bottom: 6rem;
+    background-color: red;
+    font-size: 1,5rem;
+    color: white;
+    padding: 0.2rem 0.5rem;
+}
+
+article.product > span.discount2{
+    position:absolute;
+    left: 31.8rem;
+    bottom: 6rem;
+    background-color: red;
+    font-size: 1,5rem;
+    color: white;
+    padding: 0.2rem 0.5rem;
+}
+
+article.product > span.discount3{
+    position:absolute;
+    left: 62.9rem;
+    bottom: 6rem;
+    background-color: red;
+    font-size: 1,5rem;
+    color: white;
+    padding: 0.2rem 0.5rem;
+}
+
+article.product > span.sos1{
+    position:absolute;
+    left: 4.1rem;
+    bottom: 6rem;
+    background-color: green;
+    font-size: 1,5rem;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-weight: 600;
+}
+
+article.product > span.sos2{
+    position:absolute;
+    left: 62.8rem;
+    bottom: 6rem;
+    background-color: green;
+    font-size: 1,5rem;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-weight: 600;
+}
+
+
+
 footer{
     background-color: #1A1A1A;
     color: white;
+    padding: 0 9.5rem 0 10rem;
 }
 
 footer section.foot{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 footer div.footer1{
@@ -89,9 +192,25 @@ footer div.footer1 h3,h4{
 footer div.internalFooter1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 footer div.internalFooter1 p{
+    padding-right: 0.5rem;
+}
+
+footer div.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+footer div.internalFooter2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer div.internalFooter2 p{
     padding-right: 0.5rem;
 }
